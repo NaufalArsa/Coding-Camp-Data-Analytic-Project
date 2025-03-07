@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-day_df = pd.read_csv("main-data-2.csv")
-hour_df = pd.read_csv("main-data-1.csv")
+day_df = pd.read_csv("dashboard/main-data-2.csv")
+hour_df = pd.read_csv("dashboard/main-data-1.csv")
 
 # Mapping untuk season dan weathersit
 season_map = {1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'}
